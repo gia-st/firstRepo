@@ -20,3 +20,10 @@ jobs:
     steps:
     - name: run script
       run: echo Hello darkness my old friend
+  
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: run script
+      run: echo Hello beautiful
+  
