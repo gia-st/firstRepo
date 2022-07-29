@@ -14,3 +14,9 @@ jobs:
       
     - name: run script
       run: echo Hello world!
+      
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: run script
+      run: echo Hello darkness my old friend
